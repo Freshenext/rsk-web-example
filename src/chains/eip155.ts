@@ -43,6 +43,13 @@ export const EIP155ChainData: ChainsMap = {
     slip44: 60,
     testnet: false,
   },
+  "30": {
+    name: "RSK Mainnet",
+    id: "eip155:30",
+    rpc: ["https://public-node.rsk.co"],
+    slip44: 60,
+    testnet: false,
+  },
   "31": {
     name: "RSK Testnet",
     id: "eip155:31",
@@ -151,9 +158,14 @@ export const EIP155Metadata: NamespaceMetadata = {
     logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:10.png",
     rgb: EIP155Colors.optimism,
   },
+  "30": {
+    name: "RSK Mainnet",
+    logo: "https://cryptologos.cc/logos/rsk-infrastructure-framework-rif-logo.png",
+    rgb: EIP155Colors.optimism
+  },
   "31": {
     name: "RSK Testnet",
-    logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:10.png",
+    logo: "https://cryptologos.cc/logos/rsk-infrastructure-framework-rif-logo.png",
     rgb: EIP155Colors.optimism
   },
   "42": {

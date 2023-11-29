@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import Banner from "../components/Banner";
 import Blockchain from "../components/Blockchain";
@@ -456,7 +456,6 @@ const Home: NextPage = () => {
 
   const renderContent = () => {
     const chainOptions = isTestnet ? DEFAULT_TEST_CHAINS : DEFAULT_MAIN_CHAINS;
-
     return !accounts.length && !Object.keys(balances).length ? (
       <SLanding center>
         <Banner />

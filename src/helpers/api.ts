@@ -21,6 +21,14 @@ export const rpcProvidersByChainId: Record<number, any> = {
       symbol: "ETH",
     },
   },
+  30: {
+    name: "RSK",
+    baseURL: "https://public-node.rsk.co",
+    token: {
+      name: "RIF",
+      symbol: "RIF",
+    },
+  },
   31: {
     name: "RSK",
     baseURL: "https://public-node.testnet.rsk.co",
